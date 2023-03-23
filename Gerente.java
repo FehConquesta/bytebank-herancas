@@ -8,6 +8,7 @@ public class Gerente extends Funcionario {
 	}
 	
 	public double getBonificacao() {
+		System.out.println("Metodo de bonificacao do GERENTE");
 		return super.getBonificacao()+ super.getSalario();
 	}	
 	 
