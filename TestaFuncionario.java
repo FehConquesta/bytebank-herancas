@@ -2,7 +2,7 @@ package bytebank.herancas;
 
 public class TestaFuncionario {
 	public static void main(String[] args) {
-		Funcionario luiz = new Funcionario();
+		Gerente luiz = new Gerente();
 		
 		luiz.setNome("Luiz");
 		luiz.setCpf("111.111.111-11");

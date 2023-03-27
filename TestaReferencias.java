@@ -9,7 +9,7 @@ public class TestaReferencias {
 		g1.setNome("Luiz");
 		g1.setSalario(5000);
 		 
-		Funcionario f = new Funcionario();
+		Designer f = new Designer();
 		
 		f.setNome("Bia");
 		f.setSalario(2500);
