@@ -1,38 +1,30 @@
 package bytebank.herancas;
 
-public class Gerente extends Funcionario implements Autenticavel {
+public class Administrator extends Funcionario implements Autenticavel {
 	
 	private AutenticacaoUtil autenticador;
 	
-	public Gerente() {
+	public Administrator() {
 		this.autenticador = new AutenticacaoUtil();
-	
 	}
-	
+
 	
 	public double getBonificacao() {
-		System.out.println("Metodo de bonificacao do GERENTE");
-		return super.getSalario();
-	}	
-	 
-	@Override
+		return 100;
+	}
+
+	
 	public void setSenha(int senha) {
 		this.autenticador.setSenha(senha);
 		
 		
 	}
 
-	@Override
+	
 	public boolean autentica(int senha) {
 		return this.autenticador.autentica(senha);
 		
 		
 	}
-	
-		
-		
 	}
-	
-
-
 
